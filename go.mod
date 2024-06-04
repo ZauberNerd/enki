@@ -2,7 +2,6 @@ module github.com/kairos-io/enki
 
 go 1.21
 
-
 require (
 	github.com/containerd/containerd v1.7.16
 	github.com/foxboron/go-uefi v0.0.0-20240128152106-48be911532c2
@@ -20,6 +19,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.16.0
 	github.com/twpayne/go-vfs v1.7.2
+	github.com/twpayne/go-vfs/v5 v5.0.4
 	github.com/u-root/u-root v0.12.0
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
 )
